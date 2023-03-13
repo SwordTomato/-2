@@ -16,7 +16,6 @@
 
         if (z == "Breakfast Set") {
             if (y <= 11) {
-                Console.WriteLine("This order now have {0}", Breakfast);
                 Breakfast--;
             } else {Console.WriteLine("Sorry your order is not available");}
 
@@ -25,7 +24,6 @@
             }
         } else if (z == "Weekend Set") {
             if (x == 6 || x == 7) {
-                Console.WriteLine("This order now have {0}", Weekend);
                 Weekend--;
             } else {Console.WriteLine("Sorry your order is not available");}
 
@@ -34,7 +32,6 @@
             }
         } else if (z == "Coffee") {
             if (Coffee > 0) {
-                Console.WriteLine("This order now have {0}", Coffee);
                 Coffee--;
             } else {Console.WriteLine("Sorry your order is out of stock");}
 
